@@ -1,15 +1,19 @@
 # Requirements
 
-## Service Summary
-Renewal tracking SaaS for small trucking businesses in the U.S.
+## Summary
+This public repository documents a generalized renewal tracking product concept.
 
-## Target
-- Owner-operators
-- Small fleets with 1 to 10 trucks
+## Intended Users
+- small operations teams
+- teams managing recurring document renewals
+- users who need a simple way to track deadlines and required records
 
-## MVP Scope
-- Sign up / login
-- Truck / Driver / Company registration
-- Document registration
-- Expiration date registration
-- Upcoming renewals view
+## Public MVP Scope
+- sign up / login concept
+- basic entity registration
+- document registration
+- expiration date registration
+- upcoming renewals view
+
+## Purpose of This Document
+This document is intentionally generalized for public sharing. Private product details and implementation-specific business rules are maintained separately.
