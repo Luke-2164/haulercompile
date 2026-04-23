@@ -1,9 +1,33 @@
 # haulercompile
 
-Renewal tracking SaaS for small trucking businesses.
+Public-facing portfolio repository for the haulercompile project.
 
 ## Overview
-haulercompile is a SaaS project for small trucking businesses in the U.S. to prevent missed renewals for insurance, UCR, permits, and truck or driver documents.
+haulercompile is a public repository that documents a renewal tracking product concept and related engineering decisions.
+
+This repository is intended for:
+- portfolio presentation
+- public development notes
+- generalized requirements and architecture summaries
+
+The private implementation and core product development continue in a separate private repository.
+
+## Public Repository Purpose
+- show technical thinking and project structure
+- keep generalized product documentation
+- publish public-facing development logs and notes
+
+## What is included here
+- public README
+- generalized requirements notes
+- generalized architecture notes
+- portfolio-friendly project context
+
+## What is not included here
+- private implementation details
+- production-oriented business logic
+- internal operating knowledge
+- sensitive environment settings
 
 ## Planned Tech Stack
 - Next.js
@@ -14,70 +38,10 @@ haulercompile is a SaaS project for small trucking businesses in the U.S. to pre
 - Zod
 - Resend (later)
 
-## Repository Structure
-```text
-haulercompile/
-├─ README.md
-├─ .gitignore
-├─ .env.example
-├─ docs/
-│  ├─ requirements.md
-│  └─ architecture.md
-├─ app/
-│  ├─ frontend/
-│  └─ backend/
-└─ infra/
-```
-
-## Getting Started
-At the moment, this repository contains the initial project structure. The exact startup commands will be finalized after the frontend app is scaffolded.
-
-### Prerequisites
-- Git
-- Node.js 20 or later
-- npm 10 or later
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/Luke-2164/haulercompile.git
-cd haulercompile
-```
-
-### 2. Set environment variables
-Create a local environment file from the example file.
-
-```bash
-cp .env.example .env.local
-```
-
-On Windows PowerShell, use:
-
-```powershell
-Copy-Item .env.example .env.local
-```
-
-Then fill in the required values in `.env.local`.
-
-### 3. Install dependencies
-After the frontend app is created under `app/frontend`, run:
-
-```bash
-cd app/frontend
-npm install
-```
-
-### 4. Start the development server
-After the frontend app is scaffolded, run:
-
-```bash
-npm run dev
-```
-
 ## Current Status
-- Repository initialized
-- Initial folder structure created
-- Requirements and architecture docs added
-- Frontend app not scaffolded yet
+- Public documentation repository is active
+- Private implementation is maintained separately
+- This repository focuses on public-facing materials only
 
 ## Notes
-The Getting Started section is intentionally written as an initial draft. It will be updated once the Next.js app and actual scripts are added.
+This repository is intentionally kept lightweight. Detailed implementation work is handled in the private core repository.
